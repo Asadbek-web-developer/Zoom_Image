@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(45, 52, 93);
+}
+.contet{
+    width: 300px;
+    height: 400px;
+    margin: 100px auto;
+    overflow: hidden;
+}
+.contet img{
+    transition: 2s;
+}
+.contet:hover img{
+    transform: scale(1.5);
+}
